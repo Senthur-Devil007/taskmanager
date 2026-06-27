@@ -11,8 +11,12 @@ spec:
     app: task-manager
 
   ports:
-    - port: 8081
-
+    - name: app
+      port: 8081
       targetPort: 8081
-
       nodePort: 30081
+
+    - name: actuator
+      port: 9090
+      targetPort: 9090
+      nodePort: 30090
