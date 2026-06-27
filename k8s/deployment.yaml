@@ -20,7 +20,7 @@ spec:
       containers:
         - name: task-manager
 
-          image: task-manager:v1
+          image: task-manager:v2
 
           imagePullPolicy: IfNotPresent
 
