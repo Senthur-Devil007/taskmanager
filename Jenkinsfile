@@ -9,7 +9,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = "task-manager"
-        IMAGE_TAG = "v1"
+        IMAGE_TAG = "v2"
     }
 
     stages {
