@@ -37,6 +37,12 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
+        <!-- Micrometer Graphite Registry -->
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-registry-graphite</artifactId>
+        </dependency>
+
         <!-- Spring Boot DevTools -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -65,7 +71,7 @@
 
         <plugins>
 
-            <!-- Spring Boot Plugin -->
+            <!-- Spring Boot Maven Plugin -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
